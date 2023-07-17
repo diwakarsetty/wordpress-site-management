@@ -48,7 +48,7 @@ services:
       - db
     image: wordpress:latest
     ports:
-      - 80:80
+      - 8080:80
     volumes:
       - ./wp-content:/var/www/html/wp-content
     environment:
